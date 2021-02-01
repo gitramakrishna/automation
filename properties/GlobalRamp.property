@@ -1,0 +1,6 @@
+browser = headless
+rampUrl = https://rampgafxeogyxp.eu2.hana.ondemand.com/ramp.it/login
+rampLoginID = 10002189
+rampPassword = admin
+rampOutputReportPath = C:/RampOutput
+rampReportName = RampTestReport
