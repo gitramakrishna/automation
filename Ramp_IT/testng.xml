@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test  name="Test">
+		<classes>
+			<!-- <class name="Test.HomepageTest">
+				<methods>
+					<include name="verifyResources"></include>
+				</methods>
+			</class> -->
+			
+			<!--  <class name="Test.RampIt_ResourceRequest_Test">
+				<methods>
+					<exclude name="RampIt_ResourceRequest_VerifyCreateRequestPageOpening"/>
+					<exclude name="RampIt_ResourceRequest_VerifyMandatoryFieldsForConsultingBussinessType"/>
+					<exclude name="RampIt_ResourceRequest_VerifyCreateNewRequestByFillingMandatoryFieldsForConsulting"/>
+					<exclude name="RampIt_ResourceRequest_VerifyCreateNewRequestByFillingTotalEffortWithAlphaNumericFieldsForConsulting"/>
+					<include name="RampIt_ResourceRequest_AddNewResourcePositionToRequest"/>
+					<include name="RampIt_ResourceRequest_NominateResourcePositionToRequest"/>
+					<include name="RampIt_ResourceRequest_VerifyOrderPropabilityAndWbsNumberRelation"/>
+					<include name="RampIt_ResourceRequest_VerifyCreateNewRequestByFillingMandatoryFieldsForGMS"/>
+					<include name="RampIt_ResourceRequest_VerifyCreateNewRequestAssignPositionAndNominate"/>
+					<include name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManager"/>
+					<include name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManagerForIECandidate"/>
+					<exclude name="RampIt_ResourceRequest_CopyARequestFromExisting"/>
+				</methods>
+			</class>  -->
+			<class name="ramp.test.rampTest.RampIt_ResourceRequest_Test">
+				<methods>
+					<include name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManagerForIECandidate"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 
+
