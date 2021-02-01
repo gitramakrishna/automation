@@ -21,7 +21,7 @@
 					<include name="RampIt_ResourceRequest_VerifyCreateNewRequestByFillingMandatoryFieldsForGMS"/>
 					<include name="RampIt_ResourceRequest_VerifyCreateNewRequestAssignPositionAndNominate"/>
 					<include name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManager"/>
-					<include name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManagerForIECandidate"/>
+					<exclude name="RampIt_ResourceRequest_VerifyResourceNominatingByOtherResonsibleManagerForIECandidate"/>
 					<exclude name="RampIt_ResourceRequest_CopyARequestFromExisting"/>
 				</methods>
 			</class>  -->
